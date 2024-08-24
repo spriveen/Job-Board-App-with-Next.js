@@ -21,8 +21,8 @@ export default function RootLayout({
         <header>
           <div className="container flex justify-between py-4 px-6 mx-auto">
           <Link href={'/'} className="font-bold">Job Board</Link>
-        <nav>
-        <Link href={'/login'}>Login</Link>
+        <nav className="flex gap-2 *:bg-gray-200 *:py-2 *:px-4 *:rounded-md">
+        <Link  href={'/login'}>Login</Link>
         <Link href={'/new-listening'}>Post a Job</Link>
         </nav>
           </div>
