@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,9 +9,10 @@ const config: Config = {
   ],
   theme: {
     container: {
-      padding: {
-        DEFAULT: '100px',
-        md: '200px'
+      screens: {
+        'lg': '768px',
+        'xl': '768px',
+        '2xl': '768px',
         
       },
     },
