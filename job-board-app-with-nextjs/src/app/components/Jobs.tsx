@@ -1,3 +1,5 @@
+import JobRow from "./JobRow";
+
 export default function Jobs() {
     return (
         <div className="bg-slate-200 py-4 rounded-xl ">
@@ -6,10 +8,11 @@ export default function Jobs() {
          
          
          <div className="flex flex-col gap-4">
-         <div className="bg-white p-6 rounded-lg shadow-sm">test jobs</div>
-         <div className="bg-white p-6 rounded-lg shadow-sm">test jobs</div>
-         <div className="bg-white p-6 rounded-lg shadow-sm">test jobs</div>
-         <div className="bg-white p-6 rounded-lg shadow-sm">test jobs</div>
+         <JobRow/>
+         <JobRow/>
+         <JobRow/>
+         <JobRow/>
+         <JobRow/>
          </div>
          
          </div>
